@@ -9,7 +9,7 @@ import SignUp from './components/Signup'
 function App() {
   return (
     <Router>
-      <div className="App">
+      <div className="App app-background">
         <nav className="navbar navbar-expand-lg navbar-light fixed-top color-nav">
           <div className="container ">
             <Link className="navbar-brand " to={'/sign-in'}>
