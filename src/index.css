@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  background: #1c8ef9 !important;
+  background: #0f0a0c  !important;
   min-height: 100vh;
   display: flex;
   font-weight: 400;
@@ -47,15 +47,15 @@ html,
 .auth-inner {
   width: 450px;
   margin: auto;
-  background: #ffffff;
-  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+  background: #d64cA8 ;
+  box-shadow: 0px 14px 80px rgba(00, 00, 00, 0.5);
   padding: 40px 55px 45px 55px;
   border-radius: 15px;
   transition: all 0.3s;
 }
 
 .auth-wrapper .form-control:focus {
-  border-color: #167bff;
+  border-color: #ffffff;
   box-shadow: none;
 }
 
@@ -68,6 +68,7 @@ html,
 
 .custom-control-label {
   font-weight: 400;
+  color: #ffffff;
 }
 
 .forgot-password,
@@ -75,10 +76,24 @@ html,
   text-align: right;
   font-size: 13px;
   padding-top: 10px;
-  color: #7f7d7d;
+  color: #ffffff;
   margin: 0;
 }
 
 .forgot-password a {
-  color: #167bff;
+  color: #ffffff;
+}
+.label-text-color {
+  color: #ffffff;
+}
+
+.button {
+  display:block;
+  border-radius: 4px;
+  background-color: white;
+  border: 1px solid rgb(229, 5, 154);
+  padding: 5px;
+}
+.color-nav {
+  background-color:#d64cA8;
 }

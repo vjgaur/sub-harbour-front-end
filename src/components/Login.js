@@ -4,10 +4,10 @@ export default class Login extends Component {
   render() {
     return (
       <form>
-        <h3>Sign In</h3>
+        <h3 className="label-text-color">Sign In</h3>
 
         <div className="mb-3">
-          <label>Email address</label>
+          <label className="label-text-color">Email address</label>
           <input
             type="email"
             className="form-control"
@@ -16,7 +16,7 @@ export default class Login extends Component {
         </div>
 
         <div className="mb-3">
-          <label>Password</label>
+          <label className="label-text-color">Password</label>
           <input
             type="password"
             className="form-control"
@@ -38,12 +38,12 @@ export default class Login extends Component {
         </div>
 
         <div className="d-grid">
-          <button type="submit" className="btn btn-primary">
+          <button type="submit" className="button">
             Submit
           </button>
         </div>
         <p className="forgot-password text-right">
-          Forgot <a href="#">password?</a>
+           <a href="#">Forgot Password?</a>
         </p>
       </form>
     )

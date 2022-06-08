@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export default class SignUp extends Component {
   render() {
     return (
-      <form>
+      <form className="label-text-color">
         <h3>Sign Up</h3>
 
         <div className="mb-3">
@@ -39,7 +39,7 @@ export default class SignUp extends Component {
         </div>
 
         <div className="d-grid">
-          <button type="submit" className="btn btn-primary">
+          <button type="submit" className="button">
             Sign Up
           </button>
         </div>

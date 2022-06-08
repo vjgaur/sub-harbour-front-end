@@ -10,21 +10,21 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <nav className="navbar navbar-expand-lg navbar-light fixed-top">
-          <div className="container">
-            <Link className="navbar-brand" to={'/sign-in'}>
-              sub-harbour   
+        <nav className="navbar navbar-expand-lg navbar-light fixed-top color-nav">
+          <div className="container ">
+            <Link className="navbar-brand " to={'/sign-in'}>
+             <label className="label-text-color"> sub-harbour   </label>
             </Link>
-            <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <div className="ml-auto " id="navbarTogglerDemo02">
               <ul className="navbar-nav ml-auto">
                 <li className="nav-item">
                   <Link className="nav-link" to={'/sign-in'}>
-                    Login
+                  <label className="label-text-color"> Login</label>
                   </Link>
                 </li>
                 <li className="nav-item">
                   <Link className="nav-link" to={'/sign-up'}>
-                    Sign up
+                  <label className="label-text-color">Sign up </label>
                   </Link>
                 </li>
               </ul>
