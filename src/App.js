@@ -25,6 +25,7 @@ function App() {
                 <li className="nav-item">
                   <Link className="nav-link" to={'/sign-up'}>
                   <label className="label-text-color">Sign up </label>
+                  
                   </Link>
                 </li>
               </ul>
